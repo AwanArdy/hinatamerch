@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,14 +22,72 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* color: rgb(var(--foreground-rgb)); */
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+    background-image: url('/img/bg.jpg');
+    background-size: cover;
+    background-position: center;
 }
+
+.card {
+  width: 100%;
+  min-height: 350px;
+  max-height: 350px;
+}
+
+.img-hover-zoom {
+  transition: transform 0.5s ease;
+}
+
+.img-hover-zoom:hover {
+  transform: scale(1.05); /* Nilai ini dapat disesuaikan untuk zoom yang lebih besar atau lebih kecil */
+}
+
+/* Cart */
+
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.cart-items {
+  flex: 1;
+  height: 300px;
+  overflow-y: auto;
+  margin-right: 20px;
+}
+
+.cart-summary {
+  width: 300px;
+  position: sticky;
+  top: 20px;
+}
+
+.cart-item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.buy-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Cart */
 
 @layer utilities {
   .text-balance {

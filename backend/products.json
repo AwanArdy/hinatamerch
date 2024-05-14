@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "name": "T-Shirt 4th Hinatansai Limited Edition",
+        "price": "550",
+        "image": ["/img/Yoko.jpeg", "/img/Yoko2.jpg", "/img/Yoko3.jpg"],
+        "type": "shirt",
+        "details": {
+            "Material": "100% Cotton",
+            "Size": {
+                "availableSizes": ["S", "M", "L", "XL"],
+                "dimensions": {
+                    "Length": ["66", "70", "74", "78", "82"],
+                    "Width": ["55", "58", "61", "64", "67"],
+                    "Shoulder width": ["52", "55", "58", "61", "64"],
+                    "Sleeve length": ["21", "23", "25", "27", "29"]
+                }
+            }
+        }
+    },
+    {
+        "id": "2",
+        "name": "T-Shirt 4th Hinatansai",
+        "price": "550",
+        "image": ["/img/Hina.jpeg", "/img/Hina2.jpg", "/img/Hina3.jpg"],
+        "type": "shirt",
+        "details": {
+            "Material": "100% Cotton",
+            "Size": {
+                "availableSizes": ["S", "M", "L", "XL"],
+                "dimensions": {
+                    "Length": ["66", "70", "74", "78", "82"],
+                    "Width": ["55", "58", "61", "64", "67"],
+                    "Shoulder width": ["52", "55", "58", "61", "64"],
+                    "Sleeve length": ["21", "23", "25", "27", "29"]
+                }
+            }
+        }
+    },
+    {
+        "id": "3",
+        "name": "Sweater 4th Hinatansai White",
+        "price": "550",
+        "image": ["/img/Hinano.jpeg", "/img/Hinano2.jpg", "/img/Hinano3.jpg"],
+        "type": "shirt",
+        "details": {
+            "Material": "100% Cotton",
+            "Size": {
+                "availableSizes": ["S", "M", "L", "XL"],
+                "dimensions": {
+                    "Length": ["66", "70", "74", "78", "82"],
+                    "Width": ["55", "58", "61", "64", "67"],
+                    "Shoulder width": ["52", "55", "58", "61", "64"],
+                    "Sleeve length": ["21", "23", "25", "27", "29"]
+                }
+            }
+        }
+    },
+    {
+        "id": "4",
+        "name": "Sweater 4th Hinatansai Black",
+        "price": "550",
+        "image": ["/img/Konoka.jpeg", "/img/Konoka2.jpg", "/img/Konoka3.jpg"],
+        "type": "shirt",
+        "details": {
+            "Material": "100% Cotton",
+            "Size": {
+                "availableSizes": ["S", "M", "L", "XL"],
+                "dimensions": {
+                    "Length": ["66", "70", "74", "78", "82"],
+                    "Width": ["55", "58", "61", "64", "67"],
+                    "Shoulder width": ["52", "55", "58", "61", "64"],
+                    "Sleeve length": ["21", "23", "25", "27", "29"]
+                }
+            }
+        }
+    },
+    {
+        "id": "5",
+        "name": "Towel Saito Kyoko",
+        "price": "350",
+        "image": ["/img/towelkyoko.jpeg", "/img/towelkyoko2.jpg"],
+        "type": "towel",
+        "details": {
+            "Material":"100% Cotton",
+            "Size": "200×1100mm"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Towel Nibu Akari",
+        "price": "350",
+        "image": ["/img/towelnibu.jpeg", "/img/towelnibu2.jpg"],
+        "type": "towel",
+        "details": {
+            "Material":"100% Cotton",
+            "Size": "200×1100mm"
+        }
+    },
+    {
+        "id": "7",
+        "name": "Towel Sasaki Mirei",
+        "price": "350",
+        "image": ["/img/towelmipan.jpeg", "/img/towelmipan2.jpg"],
+        "type": "towel",
+        "details": {
+            "Material":"100% Cotton",
+            "Size": "200×1100mm"
+        }
+    },
+    {
+        "id": "4",
+        "name": "Towel Kato Shiho",
+        "price": "350",
+        "image": ["/img/towelkatoshi.jpeg", "/img/towelkatoshi2.jpg"],
+        "type": "towel",
+        "details": {
+            "Material":"100% Cotton",
+            "Size": "200×1100mm"
+        }
+    }
+]
